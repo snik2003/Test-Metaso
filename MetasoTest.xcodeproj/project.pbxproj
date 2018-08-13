@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		17949B2C21217783004477BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17949B2B21217783004477BA /* AppDelegate.swift */; };
-		17949B2E21217783004477BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17949B2D21217783004477BA /* ViewController.swift */; };
 		17949B3121217783004477BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17949B2F21217783004477BA /* Main.storyboard */; };
 		17949B3321217784004477BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17949B3221217784004477BA /* Assets.xcassets */; };
 		17949B3621217784004477BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17949B3421217784004477BA /* LaunchScreen.storyboard */; };
+		17949B3E21217818004477BA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17949B3D21217818004477BA /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17949B2821217783004477BA /* MetasoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetasoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17949B2B21217783004477BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17949B2D21217783004477BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17949B3021217783004477BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17949B3221217784004477BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17949B3521217784004477BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17949B3721217784004477BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17949B3D21217818004477BA /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		17949B2A21217783004477BA /* MetasoTest */ = {
 			isa = PBXGroup;
 			children = (
+				17949B3D21217818004477BA /* TestViewController.swift */,
 				17949B2B21217783004477BA /* AppDelegate.swift */,
-				17949B2D21217783004477BA /* ViewController.swift */,
 				17949B2F21217783004477BA /* Main.storyboard */,
 				17949B3221217784004477BA /* Assets.xcassets */,
 				17949B3421217784004477BA /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17949B2E21217783004477BA /* ViewController.swift in Sources */,
+				17949B3E21217818004477BA /* TestViewController.swift in Sources */,
 				17949B2C21217783004477BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
